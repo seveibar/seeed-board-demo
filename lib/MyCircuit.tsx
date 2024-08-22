@@ -37,6 +37,9 @@ export const MyCircuit = () => (
 		/>
 		<resistor
 			resistance={330}
+			supplierPartNumbers={{
+				jlcpcb: ["C101460"],
+			}}
 			name="R1"
 			footprint="res0805"
 			pcbX={9}
